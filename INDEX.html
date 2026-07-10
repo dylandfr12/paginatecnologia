@@ -1,0 +1,304 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Guía de Compras 2026 | Recomendaciones y Ofertas</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0000000000000000" crossorigin="anonymous"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #222;
+            background: linear-gradient(180deg, #f5f7ff 0%, #f8f9fa 100%);
+        }
+        header {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            color: white;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 6px 20px rgba(79, 70, 229, 0.2);
+        }
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.25rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo { font-size: 1.35rem; font-weight: 700; }
+        .nav-links { display: flex; gap: 1.2rem; list-style: none; }
+        .nav-links a { color: white; text-decoration: none; font-weight: 600; transition: opacity 0.2s ease; }
+        .nav-links a:hover { opacity: 0.85; }
+        .hero {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            color: white;
+            padding: 4rem 1.25rem;
+            text-align: center;
+        }
+        .hero h1 { font-size: clamp(1.8rem, 4vw, 2.7rem); margin-bottom: 1rem; max-width: 850px; margin-left: auto; margin-right: auto; }
+        .hero p { font-size: 1.05rem; margin-bottom: 1.6rem; opacity: 0.95; max-width: 680px; margin-left: auto; margin-right: auto; }
+        .cta-button {
+            display: inline-block;
+            background: #ff6b6b;
+            color: white;
+            padding: 0.9rem 1.4rem;
+            border-radius: 999px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 8px 20px rgba(255, 107, 107, 0.25);
+        }
+        .cta-button:hover { transform: translateY(-2px); box-shadow: 0 12px 24px rgba(255, 107, 107, 0.3); }
+        .ad-container { max-width: 1200px; margin: 1.5rem auto; padding: 0 1.25rem; text-align: center; }
+        .ad-placeholder {
+            background: linear-gradient(90deg, #eef2ff, #f9fafb);
+            border: 1px solid #dbe2ff;
+            border-radius: 16px;
+            padding: 1rem;
+            color: #4b5563;
+            font-weight: 600;
+            box-shadow: inset 0 1px 2px rgba(0,0,0,0.04);
+        }
+        .container { max-width: 1200px; margin: 0 auto; padding: 2rem 1.25rem; }
+        section { scroll-margin-top: 90px; }
+        .section-title { text-align: center; font-size: 1.8rem; margin-bottom: 1.5rem; color: #222; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.4rem; margin-bottom: 2.5rem; }
+        .product-card {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .product-card:hover { transform: translateY(-4px); box-shadow: 0 16px 30px rgba(15, 23, 42, 0.12); }
+        .product-image {
+            min-height: 220px;
+            background: linear-gradient(45deg, #667eea, #7c3aed);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.3rem;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+        }
+        .product-content {
+            padding: 1.2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.7rem;
+            flex: 1;
+        }
+        .product-tag { display: inline-block; background: #ff6b6b; color: white; padding: 0.25rem 0.7rem; border-radius: 999px; font-size: 0.8rem; font-weight: 700; width: fit-content; }
+        .product-title { font-size: 1.15rem; color: #111827; }
+        .product-description { color: #556; font-size: 0.95rem; }
+        .product-price { font-size: 1.35rem; color: #4f46e5; font-weight: 800; }
+        .affiliate-button {
+            display: inline-block;
+            width: 100%;
+            background: #4f46e5;
+            color: white;
+            padding: 0.8rem 0.95rem;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            font-weight: 700;
+            transition: background 0.2s ease;
+            text-align: center;
+            text-decoration: none;
+            margin-top: auto;
+        }
+        .affiliate-button:hover { background: #4338ca; }
+        .email-section {
+            background: #111827;
+            color: white;
+            padding: 2.2rem 1.2rem;
+            border-radius: 16px;
+            margin: 2rem 0;
+            text-align: center;
+            box-shadow: 0 10px 24px rgba(17, 24, 39, 0.12);
+        }
+        .email-section h2 { margin-bottom: 0.7rem; }
+        .email-form { display: flex; gap: 0.9rem; justify-content: center; flex-wrap: wrap; margin-top: 1.2rem; }
+        .email-input { padding: 0.8rem 1rem; border: none; border-radius: 10px; min-width: 280px; font-size: 1rem; }
+        .submit-button { background: #ff6b6b; color: white; padding: 0.8rem 1.2rem; border: none; border-radius: 10px; cursor: pointer; font-size: 1rem; font-weight: 700; transition: background 0.2s ease; }
+        .submit-button:hover { background: #ff5252; }
+        .blog-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.2rem; }
+        .blog-card { background: white; border-radius: 16px; padding: 1.2rem; box-shadow: 0 8px 16px rgba(15, 23, 42, 0.06); }
+        .blog-date { color: #6b7280; font-size: 0.85rem; margin-bottom: 0.4rem; }
+        .blog-title { font-size: 1.1rem; margin-bottom: 0.45rem; color: #111827; }
+        .blog-excerpt { color: #556; margin-bottom: 0.8rem; font-size: 0.95rem; }
+        .read-more { color: #4f46e5; text-decoration: none; font-weight: 700; }
+        footer { background: #111827; color: white; text-align: center; padding: 2rem 1.2rem; margin-top: 2.5rem; }
+        .footer-links { display: flex; justify-content: center; gap: 1.2rem; margin-bottom: 0.9rem; flex-wrap: wrap; }
+        .footer-links a { color: white; text-decoration: none; opacity: 0.9; font-weight: 600; }
+        .disclaimer { font-size: 0.9rem; opacity: 0.75; margin-top: 0.8rem; }
+        .trust-badges { display: flex; justify-content: center; gap: 1.2rem; margin: 1.6rem 0 0; flex-wrap: wrap; }
+        .badge { display: flex; align-items: center; gap: 0.5rem; color: #e0e7ff; font-weight: 600; }
+        .badge::before { content: '✓'; color: #4ade80; font-weight: 800; }
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .hero h1 { font-size: 1.75rem; }
+            .email-input { min-width: 100%; }
+            .footer-links { gap: 0.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">🚀 Tecnología</div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#guias">Guías</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="inicio">
+        <h1>Los Mejores Productos de Tecnología - Comparativa 2026</h1>
+        <p>Analizamos, probamos y comparamos para que tú ahorres tiempo y dinero. Descubre las mejores opciones según expertos.</p>
+        <a href="#reviews" class="cta-button">Ver Top Recomendaciones</a>
+        <div class="trust-badges">
+            <div class="badge">Análisis Independiente</div>
+            <div class="badge">Actualizado 2026</div>
+            <div class="badge">+10,000 Lectores</div>
+        </div>
+    </section>
+
+    <div class="ad-container">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-0000000000000000"
+             data-ad-slot="1234567890"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+
+    <section class="container" id="reviews">
+        <h2 class="section-title">🏆 Top 3 Mejores Productos Recomendados</h2>
+        <div class="grid">
+            <div class="product-card">
+                <div class="product-image">Auriculares Pro</div>
+                <div class="product-content">
+                    <span class="product-tag">⭐ Mejor Valorado</span>
+                    <h3 class="product-title">Auriculares Inalámbricos Pro</h3>
+                    <p class="product-description">Sonido envolvente, batería de larga duración y comodidad para trabajar o viajar.</p>
+                    <div class="product-price">$89.99</div>
+                    <a href="https://www.amazon.com/s?k=auriculares+inalambricos+pro" class="affiliate-button" target="_blank" rel="noopener noreferrer" onclick="trackClick('producto1')">Comprar ahora</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">Lámpara Smart</div>
+                <div class="product-content">
+                    <span class="product-tag" style="background: #28a745;">💰 Mejor Precio</span>
+                    <h3 class="product-title">Lámpara de Escritorio Smart</h3>
+                    <p class="product-description">Excelente relación calidad-precio con iluminación ajustable y diseño moderno.</p>
+                    <div class="product-price">$49.90</div>
+                    <a href="https://www.amazon.com/s?k=lampara+escritorio+smart" class="affiliate-button" target="_blank" rel="noopener noreferrer" onclick="trackClick('producto2')">Ver oferta</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">PC Gamer</div>
+                <div class="product-content">
+                    <span class="product-tag" style="background: #6c757d;">👑 Premium</span>
+                    <h3 class="product-title">PC Gamer de Alto Rendimiento</h3>
+                    <p class="product-description">Potencia para gaming, edición de video y multitarea intensa con excelente rendimiento.</p>
+                    <div class="product-price">$1,299.00</div>
+                    <a href="https://www.amazon.com/s?k=pc+gamer" class="affiliate-button" target="_blank" rel="noopener noreferrer" onclick="trackClick('producto3')">Comparar modelos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" id="contacto">
+        <div class="email-section">
+            <h2>📧 Recibe Nuestras Guías Exclusivas</h2>
+            <p>Suscríbete y recibe comparativas, descuentos secretos y guías de compra antes que nadie.</p>
+            <form class="email-form" onsubmit="handleSubscribe(event)">
+                <input type="email" class="email-input" placeholder="tu@email.com" required>
+                <button type="submit" class="submit-button">Suscribirme Gratis</button>
+            </form>
+            <small style="opacity: 0.7; margin-top: 1rem; display: block;">
+                🔒 Sin spam. Puedes darte de baja en cualquier momento. También puedes escribir a <a href="mailto:contacto@tunicho.com" style="color: #fff; text-decoration: underline;">contacto@tunicho.com</a>.
+            </small>
+        </div>
+    </section>
+
+    <div class="ad-container">
+        <div class="ad-placeholder">
+            📢 ESPACIO PARA ANUNCIOS<br>
+            <small>300x250 o 336x280</small>
+        </div>
+    </div>
+
+    <section class="container" id="guias">
+        <h2 class="section-title">📚 Guías y Artículos Populares</h2>
+        <div class="blog-grid">
+            <article class="blog-card">
+                <div class="blog-date">10 de Julio, 2026</div>
+                <h3 class="blog-title">Cómo elegir el mejor producto sin perder tiempo</h3>
+                <p class="blog-excerpt">Descubre los factores clave para comparar opciones reales, evitar errores y comprar con confianza.</p>
+                <a href="https://www.consumerreports.org" class="read-more" target="_blank" rel="noopener noreferrer">Leer más</a>
+            </article>
+            <article class="blog-card">
+                <div class="blog-date">8 de Julio, 2026</div>
+                <h3 class="blog-title">Los 5 errores más comunes al comprar online</h3>
+                <p class="blog-excerpt">Evita pagar de más y aprende a valorar la calidad real del producto antes de decidir.</p>
+                <a href="https://www.tomsguide.com" class="read-more" target="_blank" rel="noopener noreferrer">Leer más</a>
+            </article>
+            <article class="blog-card">
+                <div class="blog-date">5 de Julio, 2026</div>
+                <h3 class="blog-title">Comparativa rápida: premium vs mejor precio</h3>
+                <p class="blog-excerpt">Te explicamos cuándo merece la pena pagar más y cuándo la opción más barata es la mejor elección.</p>
+                <a href="https://www.techradar.com" class="read-more" target="_blank" rel="noopener noreferrer">Leer más</a>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="https://www.amazon.com" target="_blank" rel="noopener noreferrer">Amazon</a>
+            <a href="https://www.consumerreports.org" target="_blank" rel="noopener noreferrer">Consumer Reports</a>
+            <a href="mailto:contacto@tunicho.com">Contacto</a>
+            <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Google</a>
+        </div>
+        <p>&copy; 2026 Tecnología - Todos los derechos reservados</p>
+        <p class="disclaimer">Disclaimer: Este sitio participa en programas de afiliados como Amazon Associates. Ganamos comisiones por compras calificadas, sin costo adicional para ti.</p>
+    </footer>
+
+    <script>
+        function trackClick(product) {
+            console.log('Click en: ' + product);
+        }
+        function handleSubscribe(e) {
+            e.preventDefault();
+            const email = e.target.querySelector('input[type="email"]').value;
+            alert('¡Gracias por suscribirte! Revisa tu email: ' + email);
+            e.target.reset();
+        }
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
